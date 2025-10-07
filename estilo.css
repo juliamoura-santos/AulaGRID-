@@ -6,7 +6,7 @@ body{
     height: 100vh; /* vh = altura total da tela (viewport height)*/
     width: 100vw; /*largura total da tela(viewport width)*/
 
-    background-image: url('img/imagem2.jpg'); /*caminho da imagem de fundo*/
+    background-image: url('imagem2.jpg'); /*caminho da imagem de fundo*/
     background-size: cover; /*faz a imagem cobrir a tela toda*/
     background-position: center; /*centraliza a imagem*/
     background-repeat: no-repeat; /*evita que a imagem se repita na tela*/
@@ -29,4 +29,5 @@ body{
     text-align: center;
     font-size: 1.5em; /*aumenta a fonte de acordo com a largura da página*/
     border-radius: 8px; 
+
 }
