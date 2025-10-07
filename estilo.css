@@ -1,0 +1,32 @@
+/*Aplica à página inteira*/
+body{
+    margin: 0; /*remove as margens padrão*/
+    padding: 0; /*remove espaçamento padrão*/
+
+    height: 100vh; /* vh = altura total da tela (viewport height)*/
+    width: 100vw; /*largura total da tela(viewport width)*/
+
+    background-image: url('img/imagem2.jpg'); /*caminho da imagem de fundo*/
+    background-size: cover; /*faz a imagem cobrir a tela toda*/
+    background-position: center; /*centraliza a imagem*/
+    background-repeat: no-repeat; /*evita que a imagem se repita na tela*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*Estilo para container do GRID*/
+.container{
+    display: grid; /*ativa o grid layout*/
+
+    grid-template-columns: repeat(3, 1fr); /*cria 3 colunas com larguras iguais(1fr= 1 fração do espaço disponivel)*/
+
+    gap: 10px; /*espaço entre os itens do GRID*/
+    padding: 20px;
+}
+/*estilo para os itens do GRID*/
+.item{
+    background-color: rgb(211, 201, 220);
+    color: rgb(2, 2, 2);
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5em; /*aumenta a fonte de acordo com a largura da página*/
+    border-radius: 8px; 
+}
